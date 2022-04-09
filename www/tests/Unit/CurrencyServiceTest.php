@@ -30,16 +30,52 @@ class CurrencyServiceTest extends TestCase
         $this->assertSame($currencies, $rate);
     }
 
-    public function testExchange(): void
+    public function testExchangeSuccess(): void
     {
         // arrange
         $rate = 3.1415926;
         $amount = 1234;
+        $expected = '3,876.73';
 
         // action
         $exchange = app(CurrencyService::class)->exchange($rate, $amount);
 
         // assert
-        $this->assertSame($exchange, '3,876.73');
+        $this->assertSame($exchange, $expected);
+    }
+
+    public function getExchangeData(): array
+    {
+        return [
+            '匯率低於限制' => [
+                'rate' => 0.000098,
+                'amount' => 100,
+                'expected' => ApiException::class,
+            ],
+            '金額低於限制' => [
+                'rate' => 3.1415926,
+                'amount' => 0.0000000001,
+                'expected' => ApiException::class,
+            ],
+        ];
+    }
+
+    /**
+     * @dataProvider getExchangeData
+     * @param float $rate
+     * @param float $amount
+     * @param string $expected
+     * @throws ApiException
+     */
+    public function testExchangeFailed(float $rate, float $amount, string $expected): void
+    {
+        // arrange
+
+        // assert
+        $this->expectException($expected);
+        $this->expectExceptionCode(400);
+
+        // action
+        app(CurrencyService::class)->exchange($rate, $amount);
     }
 }

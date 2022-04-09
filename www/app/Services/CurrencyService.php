@@ -35,9 +35,17 @@ class CurrencyService
      * @param float $rate
      * @param float $amount
      * @return string
+     * @throws ApiException
      */
     public function exchange(float $rate, float $amount): string
     {
-        return number_format($rate * $amount, 2);
+        try {
+            $sum = bcmul($rate, $amount, 4);
+        } catch (\Throwable $exception) {
+            \Log::alert("計算錯誤，rate: {$rate}, amount:{$amount}");
+            throw new ApiException(CurrencyStatus::CALCULATION_ERROR);
+        }
+
+        return number_format($sum, 2);
     }
 }
