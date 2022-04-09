@@ -12,4 +12,5 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - \
     && apt-get install -y nodejs
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+RUN docker-php-ext-install bcmath
 COPY --from=composer /usr/bin/composer /usr/bin/composer
