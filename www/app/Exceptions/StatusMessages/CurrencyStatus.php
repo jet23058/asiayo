@@ -11,7 +11,6 @@ use Illuminate\Http\Response;
 final class CurrencyStatus
 {
     public const SOURCE_NOTFOUND = [
-        'status_code' => '00010001',
         'http_status_code' => Response::HTTP_NOT_FOUND,
         'message' => '匯率資料不存在',
     ];

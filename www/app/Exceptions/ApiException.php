@@ -26,7 +26,6 @@ class ApiException extends \Exception
         parent::__construct();
 
         $this->code = $statusMessages['http_status_code'];
-        $this->responseCode = $statusMessages['status_code'];
         $this->message = $statusMessages['message'];
         $this->data = $data;
     }
@@ -37,7 +36,6 @@ class ApiException extends \Exception
     public function render(): JsonResponse
     {
         return response()->json([
-            'status' => $this->responseCode,
             'data' => $this->data,
             'message' => $this->message,
         ], $this->code);

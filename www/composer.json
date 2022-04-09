@@ -19,7 +19,9 @@
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^5.10",
-        "phpunit/phpunit": "^9.5.10"
+        "phpunit/phpunit": "^9.5.10",
+        "mpociot/documentarian": "dev-master as 0.4.0",
+        "mpociot/laravel-apidoc-generator": "dev-master"
     },
     "autoload": {
         "psr-4": {

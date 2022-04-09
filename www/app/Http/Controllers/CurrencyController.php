@@ -28,6 +28,9 @@ class CurrencyController extends Controller
     }
 
     /**
+     * 匯率轉換 (currency.exchange-rate)
+     * @response 200 {"data":{"amount":"3.67"},"message":null}
+     * @response 400 {"data":null,"message":{"source":["The selected source is invalid."]}}
      * @param CurrencyExchangeRateRequest $request
      * @return Response
      * @throws ApiException
@@ -46,7 +49,6 @@ class CurrencyController extends Controller
         $amount = $this->service->exchange($currencies[$data['source']][$data['target']], $data['amount']);
 
         return response([
-            'status' => 200,
             'data' => ['amount' => $amount],
             'message' => null,
         ]);

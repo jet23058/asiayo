@@ -2,96 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c03cde7-1f58-4526-b731-694905ac32f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Enums/Currency.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/ApiException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/StatusMessages/CurrencyStatus.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CurrencyController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CurrencyExchangeRateRequest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/CurrencyService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cors.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/hashing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sanctum.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/channels.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/console.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/Http/Controllers/CurrencyControllerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/CurrencyServiceTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/www/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/Exceptions/ApiException.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/app/Exceptions/ApiException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/Exceptions/StatusMessages/CurrencyStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/app/Exceptions/StatusMessages/CurrencyStatus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/Http/Controllers/CurrencyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/app/Http/Controllers/CurrencyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app/Http/Requests/CurrencyExchangeRateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/app/Http/Requests/CurrencyExchangeRateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/www/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/tests/Feature/Http/Controllers/CurrencyControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/tests/Feature/Http/Controllers/CurrencyControllerTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,17 +177,17 @@
       <recent name="$PROJECT_DIR$/app/Http/Controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.CurrencyServiceTest.testExchange">
+  <component name="RunManager" selected="PHPUnit.CurrencyControllerTest (1)">
+    <configuration name="CurrencyControllerTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Http\Controllers\CurrencyControllerTest" file="$PROJECT_DIR$/www/tests/Feature/Http/Controllers/CurrencyControllerTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="CurrencyControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\Http\Controllers\CurrencyControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/CurrencyControllerTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="CurrencyControllerTest.testCurrencyDataSourceNotExists" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\Http\Controllers\CurrencyControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/CurrencyControllerTest.php" method="testCurrencyDataSourceNotExists" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="CurrencyControllerTest.testCurrencyExchangeRateFailed" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Http\Controllers\CurrencyControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Http/Controllers/CurrencyControllerTest.php" method="testCurrencyExchangeRateFailed" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="CurrencyServiceTest.testExchange" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -283,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.CurrencyControllerTest (1)" />
         <item itemvalue="PHPUnit.CurrencyServiceTest.testExchange" />
         <item itemvalue="PHPUnit.CurrencyServiceTest.testRates" />
         <item itemvalue="PHPUnit.CurrencyControllerTest" />
         <item itemvalue="PHPUnit.CurrencyControllerTest.testCurrencyDataSourceNotExists" />
-        <item itemvalue="PHPUnit.CurrencyControllerTest.testCurrencyExchangeRateFailed" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649407043587</updated>
       <workItem from="1649407048747" duration="8447000" />
-      <workItem from="1649470601617" duration="3317000" />
+      <workItem from="1649470601617" duration="6897000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init">
       <created>1649407193765</created>
@@ -318,7 +239,28 @@
       <option name="project" value="LOCAL" />
       <updated>1649471599070</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: docker compose">
+      <created>1649474639693</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649474639693</updated>
+    </task>
+    <task id="LOCAL-00004" summary="docs: api docs">
+      <created>1649478184832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649478184836</updated>
+    </task>
+    <task id="LOCAL-00005" summary="docs: api docs">
+      <created>1649478223901</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649478223902</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,9 +269,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: init" />
     <MESSAGE value="feat: 取得匯率" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 取得匯率" />
+    <MESSAGE value="feat: docker compose" />
+    <MESSAGE value="docs: api docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: api docs" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="65" width="793" height="794" key="#CurrencyControllerTest_(1)" timestamp="1649475028215">
+      <screen x="67" y="25" width="1373" height="875" />
+    </state>
+    <state x="413" y="65" width="793" height="794" key="#CurrencyControllerTest_(1)/67.25.1373.875@67.25.1373.875" timestamp="1649475028215" />
+    <state x="344" y="121" key="#Test_Frameworks" timestamp="1649475026339">
+      <screen x="67" y="25" width="1373" height="875" />
+    </state>
+    <state x="344" y="121" key="#Test_Frameworks/67.25.1373.875@67.25.1373.875" timestamp="1649475026339" />
     <state x="173" y="125" width="1167" height="675" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1649471497838">
       <screen x="67" y="25" width="1373" height="875" />
     </state>
@@ -343,11 +295,11 @@
     </state>
     <state x="558" y="262" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.25.1373.875@67.25.1373.875" timestamp="1649474118494" />
     <state x="734" y="311" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/73.25.1847.1055@73.25.1847.1055" timestamp="1649413640565" />
-    <state x="451" y="40" key="CommitChangelistDialog2" timestamp="1649471598180">
-      <screen x="67" y="25" width="1373" height="875" />
+    <state x="590" y="122" key="CommitChangelistDialog2" timestamp="1649478223372">
+      <screen x="73" y="25" width="1847" height="1055" />
     </state>
-    <state x="451" y="40" key="CommitChangelistDialog2/67.25.1373.875@67.25.1373.875" timestamp="1649471598180" />
-    <state x="590" y="122" key="CommitChangelistDialog2/73.25.1847.1055@73.25.1847.1055" timestamp="1649414856279" />
+    <state x="304" y="40" key="CommitChangelistDialog2/67.25.1373.875@67.25.1373.875" timestamp="1649474638595" />
+    <state x="590" y="122" key="CommitChangelistDialog2/73.25.1847.1055@73.25.1847.1055" timestamp="1649478223372" />
     <state width="1325" height="227" key="GridCell.Tab.0.bottom" timestamp="1649471500846">
       <screen x="67" y="25" width="1373" height="875" />
     </state>
@@ -384,19 +336,19 @@
       <screen x="73" y="25" width="1847" height="1055" />
     </state>
     <state x="505" y="188" key="SettingsEditor/73.25.1847.1055@73.25.1847.1055" timestamp="1649407280002" />
-    <state width="500" height="400" key="SwitcherDM" timestamp="1649474513833">
+    <state width="500" height="400" key="SwitcherDM" timestamp="1649476567860">
       <screen x="67" y="25" width="1373" height="875" />
     </state>
-    <state width="500" height="400" key="SwitcherDM/67.25.1373.875@67.25.1373.875" timestamp="1649474513833" />
+    <state width="500" height="400" key="SwitcherDM/67.25.1373.875@67.25.1373.875" timestamp="1649476567860" />
     <state width="500" height="445" key="SwitcherDM/73.25.1847.1055@73.25.1847.1055" timestamp="1649414668203" />
     <state x="443" y="277" width="931" height="545" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1649414988560">
       <screen x="73" y="25" width="1847" height="1055" />
     </state>
     <state x="443" y="277" width="931" height="545" key="com.jetbrains.php.test.PhpNewTestDialog/73.25.1847.1055@73.25.1847.1055" timestamp="1649414988560" />
-    <state x="504" y="219" width="670" height="561" key="search.everywhere.popup" timestamp="1649474478074">
-      <screen x="67" y="25" width="1373" height="875" />
+    <state x="661" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1649477756124">
+      <screen x="73" y="25" width="1847" height="1055" />
     </state>
-    <state x="504" y="219" width="670" height="561" key="search.everywhere.popup/67.25.1373.875@67.25.1373.875" timestamp="1649474478074" />
-    <state x="661" y="259" width="670" height="676" key="search.everywhere.popup/73.25.1847.1055@73.25.1847.1055" timestamp="1649415777165" />
+    <state x="504" y="219" width="670" height="561" key="search.everywhere.popup/67.25.1373.875@67.25.1373.875" timestamp="1649476427252" />
+    <state x="661" y="259" width="670" height="676" key="search.everywhere.popup/73.25.1847.1055@73.25.1847.1055" timestamp="1649477756124" />
   </component>
 </project>

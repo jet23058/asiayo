@@ -31,6 +31,10 @@ class Handler extends ExceptionHandler
 
     public function render($request, Throwable $e)
     {
+        if ($e instanceof ApiException) {
+            return parent::render($request, $e);
+        }
+
         $message = 'server error';
 
         if ($e instanceof ValidationException) {
@@ -38,7 +42,6 @@ class Handler extends ExceptionHandler
         }
 
         return response([
-            'status' => '000000',
             'data' => null,
             'message' => $message,
         ], Response::HTTP_BAD_REQUEST);

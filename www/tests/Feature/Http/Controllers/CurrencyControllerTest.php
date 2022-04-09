@@ -115,8 +115,12 @@ class CurrencyControllerTest extends TestCase
             'amount' => $amount,
         ];
 
-        // action & assert
-        $this->post(route('currency.exchange-rate'), $request)->assertSessionHasErrors($errorField);
+        // action
+        $response = $this->post(route('currency.exchange-rate'), $request);
+
+
+        // assert
+        $response->assertStatus(400);
     }
 
     public function testCurrencyDataSourceNotExists(): void
@@ -135,8 +139,5 @@ class CurrencyControllerTest extends TestCase
 
         // assert
         $response->assertStatus(404);
-        $response->assertJson([
-            'status' => '00010001',
-        ]);
     }
 }

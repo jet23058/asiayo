@@ -8,9 +8,9 @@ use Illuminate\Validation\Rule;
 
 /**
  * Class CurrencyExchangeRateRequest
- * @bodyParam source required string 來源幣別
- * @bodyParam target required string 目標幣別
- * @bodyParam amount required numeric 金額數字
+ * @bodyParam source string required 來源幣別
+ * @bodyParam target string required 目標幣別
+ * @bodyParam amount numeric required 金額數字
  * @package App\Http\Requests
  */
 class CurrencyExchangeRateRequest extends FormRequest
